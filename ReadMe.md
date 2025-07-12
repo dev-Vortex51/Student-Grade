@@ -118,4 +118,4 @@ Students sorted by grade: [
 
 ---
 
-**Author:** [Bello Qudus Folohunsho]
+**Author:** Bello Qudus Folohunsho

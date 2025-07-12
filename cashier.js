@@ -46,5 +46,3 @@ console.log(
   "Students sorted by grade:",
   sortStudentByGrade(arrayOfStudentWithAverageGrades)
 );
-
-// https://replit.com/join/sdkfwdgozq-belloqudus
