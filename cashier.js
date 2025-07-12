@@ -7,6 +7,8 @@ let students = [
 ];
 
 function calculateAverageGrades(arr) {
+  if (!arr.length) return 0;
+  if (!Array.isArray(arr)) return 0;
   return arr.map((student) => {
     // Add up all grades
     const totalGrades = student.grades.reduce((acc, grade) => acc + grade, 0);
@@ -31,6 +33,8 @@ const arrayOfStudentWithAverageGrades = calculateAverageGrades(students);
 console.log("Students with average grades:", arrayOfStudentWithAverageGrades);
 
 const findTopStudent = (students) => {
+  if (!students.length) return 0;
+  if (!Array.isArray(students)) return 0;
   return students.reduce((max, cur) =>
     cur.averageGrade > max.averageGrade ? cur : max
   );
@@ -38,7 +42,9 @@ const findTopStudent = (students) => {
 
 console.log("Top student:", findTopStudent(arrayOfStudentWithAverageGrades));
 
-const sortStudentByGrade = (students) => {
+const sortStudentByGrade = (students = "") => {
+  if (!students.length) return 0;
+  if (!Array.isArray(students)) return 0;
   return students.sort((a, b) => b.averageGrade - a.averageGrade);
 };
 
