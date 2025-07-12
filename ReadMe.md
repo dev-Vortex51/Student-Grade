@@ -1,6 +1,6 @@
-# Student Grades Script
+# Student Grades Data Manipulation
 
-This script provides an example of how to process an array of student objects, calculate their average grades, find the top student, and sort students by their average grades using JavaScript.
+This script shows the processing of an array of student objects, calculate their average grades, find the top student, and sort students by their average grades using JavaScript.
 
 ## Features
 
